@@ -1,0 +1,41 @@
+name: sparkl
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get: ^4.7.2
+  lottie: ^3.3.1
+  google_fonts: ^6.2.1
+  r_dotted_line_border: ^0.1.1
+  video_player: ^2.9.2
+  image_picker: ^1.1.2
+  permission_handler: ^11.3.1
+  camera: ^0.11.1
+  chat_bubbles: ^1.7.0
+  audioplayers: ^6.1.2
+  cached_network_image: ^3.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/image/
+    - assets/json/
+    - assets/video/
